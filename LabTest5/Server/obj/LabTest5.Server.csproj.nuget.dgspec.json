@@ -1,0 +1,294 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Works\\Projects\\DotNet\\LabTest5\\LabTest5\\Server\\LabTest5.Server.csproj": {}
+  },
+  "projects": {
+    "D:\\Works\\Projects\\DotNet\\LabTest5\\LabTest5\\Client\\LabTest5.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Works\\Projects\\DotNet\\LabTest5\\LabTest5\\Client\\LabTest5.Client.csproj",
+        "projectName": "LabTest5.Client",
+        "projectPath": "D:\\Works\\Projects\\DotNet\\LabTest5\\LabTest5\\Client\\LabTest5.Client.csproj",
+        "packagesPath": "C:\\Users\\rafsa.DESKTOP-F3TKHK3\\.nuget\\packages\\",
+        "outputPath": "D:\\Works\\Projects\\DotNet\\LabTest5\\LabTest5\\Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rafsa.DESKTOP-F3TKHK3\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnet.myget.org/F/aspnetcore-master/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Works\\Projects\\DotNet\\LabTest5\\LabTest5\\Shared\\LabTest5.Shared.csproj": {
+                "projectPath": "D:\\Works\\Projects\\DotNet\\LabTest5\\LabTest5\\Shared\\LabTest5.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.Authentication": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.browser-wasm",
+              "version": "[5.0.1, 5.0.1]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\Works\\Projects\\DotNet\\LabTest5\\LabTest5\\Server\\LabTest5.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Works\\Projects\\DotNet\\LabTest5\\LabTest5\\Server\\LabTest5.Server.csproj",
+        "projectName": "LabTest5.Server",
+        "projectPath": "D:\\Works\\Projects\\DotNet\\LabTest5\\LabTest5\\Server\\LabTest5.Server.csproj",
+        "packagesPath": "C:\\Users\\rafsa.DESKTOP-F3TKHK3\\.nuget\\packages\\",
+        "outputPath": "D:\\Works\\Projects\\DotNet\\LabTest5\\LabTest5\\Server\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rafsa.DESKTOP-F3TKHK3\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnet.myget.org/F/aspnetcore-master/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Works\\Projects\\DotNet\\LabTest5\\LabTest5\\Client\\LabTest5.Client.csproj": {
+                "projectPath": "D:\\Works\\Projects\\DotNet\\LabTest5\\LabTest5\\Client\\LabTest5.Client.csproj"
+              },
+              "D:\\Works\\Projects\\DotNet\\LabTest5\\LabTest5\\Shared\\LabTest5.Shared.csproj": {
+                "projectPath": "D:\\Works\\Projects\\DotNet\\LabTest5\\LabTest5\\Shared\\LabTest5.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "HotChocolate.AspNetCore": {
+              "target": "Package",
+              "version": "[11.0.6, )"
+            },
+            "HotChocolate.AspNetCore.GraphiQL": {
+              "target": "Package",
+              "version": "[10.5.5, )"
+            },
+            "HotChocolate.AspNetCore.Playground": {
+              "target": "Package",
+              "version": "[10.5.5, )"
+            },
+            "HotChocolate.Subscriptions.InMemory": {
+              "target": "Package",
+              "version": "[11.0.6, )"
+            },
+            "HotChocolate.Types": {
+              "target": "Package",
+              "version": "[11.0.6, )"
+            },
+            "HotChocolate.Types.Filters": {
+              "target": "Package",
+              "version": "[11.0.6, )"
+            },
+            "HotChocolate.Types.Sorting": {
+              "target": "Package",
+              "version": "[11.0.6, )"
+            },
+            "Microsoft.AspNetCore.ApiAuthorization.IdentityServer": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.Server": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Works\\Projects\\DotNet\\LabTest5\\LabTest5\\Shared\\LabTest5.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Works\\Projects\\DotNet\\LabTest5\\LabTest5\\Shared\\LabTest5.Shared.csproj",
+        "projectName": "LabTest5.Shared",
+        "projectPath": "D:\\Works\\Projects\\DotNet\\LabTest5\\LabTest5\\Shared\\LabTest5.Shared.csproj",
+        "packagesPath": "C:\\Users\\rafsa.DESKTOP-F3TKHK3\\.nuget\\packages\\",
+        "outputPath": "D:\\Works\\Projects\\DotNet\\LabTest5\\LabTest5\\Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rafsa.DESKTOP-F3TKHK3\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnet.myget.org/F/aspnetcore-master/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

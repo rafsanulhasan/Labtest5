@@ -1,0 +1,11 @@
+D:\Works\Projects\DotNet\LabTest5\LabTest5\Shared\bin\Debug\net5.0\LabTest5.Shared.deps.json
+D:\Works\Projects\DotNet\LabTest5\LabTest5\Shared\bin\Debug\net5.0\LabTest5.Shared.dll
+D:\Works\Projects\DotNet\LabTest5\LabTest5\Shared\bin\Debug\net5.0\ref\LabTest5.Shared.dll
+D:\Works\Projects\DotNet\LabTest5\LabTest5\Shared\bin\Debug\net5.0\LabTest5.Shared.pdb
+D:\Works\Projects\DotNet\LabTest5\LabTest5\Shared\obj\Debug\net5.0\LabTest5.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Works\Projects\DotNet\LabTest5\LabTest5\Shared\obj\Debug\net5.0\LabTest5.Shared.AssemblyInfoInputs.cache
+D:\Works\Projects\DotNet\LabTest5\LabTest5\Shared\obj\Debug\net5.0\LabTest5.Shared.AssemblyInfo.cs
+D:\Works\Projects\DotNet\LabTest5\LabTest5\Shared\obj\Debug\net5.0\LabTest5.Shared.csproj.CoreCompileInputs.cache
+D:\Works\Projects\DotNet\LabTest5\LabTest5\Shared\obj\Debug\net5.0\LabTest5.Shared.dll
+D:\Works\Projects\DotNet\LabTest5\LabTest5\Shared\obj\Debug\net5.0\ref\LabTest5.Shared.dll
+D:\Works\Projects\DotNet\LabTest5\LabTest5\Shared\obj\Debug\net5.0\LabTest5.Shared.pdb
